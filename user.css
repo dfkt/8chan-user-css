@@ -21,3 +21,9 @@ form[name=postcontrols]{
 div.post.reply {
     width:960px;
 }
+
+.own_post {
+    color:#F80;
+    font-weight:bold;
+}
+
