@@ -23,7 +23,8 @@ div.post.reply {
 }
 
 .own_post {
-    color:#F80;
+    color:#ADBD68;
+    opacity:1;
     font-weight:bold;
 }
 
