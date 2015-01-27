@@ -1,15 +1,18 @@
 /* Enter here your own CSS rules...
-   If you want to make a redistributable style, be sure to 
+   If you want to make a redistributable style, be sure to
    have a Yotsuba B theme selected.
    You can include CSS files from remote servers, for example:
    @import "http://example.com/style.css"; */
 
+/* import tomorrow style */
 @import url('/stylesheets/tomorrow.css');
 
+/* remove top boards */
 span.sub:nth-child(3),span.sub:nth-child(4),span.sub:nth-child(5){
     display:none;
 }
 
+/* general layout */
 form[name=postcontrols]{
     margin-left:auto;
     margin-right:auto;
@@ -22,9 +25,22 @@ div.post.reply {
     width:960px;
 }
 
+/* color (you) same as greenpost */
 .own_post {
     color:#ADBD68;
     opacity:1;
     font-weight:bold;
 }
 
+/* fix header crap on /cow/ */
+.desktop-style body {
+    padding-top:0;
+}
+
+div.boardlist {
+    padding:0;
+}
+
+header h1 {
+    text-shadow:none;
+}
