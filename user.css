@@ -45,6 +45,10 @@ header h1 {
     text-shadow:none;
 }
 
+img.banner, img.board_image {
+    margin: 30px auto 0px;
+}
+
 /* fix user css field size */
 div.options_tab:nth-child(5) > textarea:nth-child(2) {
     width:500px;
