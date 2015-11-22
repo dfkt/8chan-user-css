@@ -1,56 +1,39 @@
-/* import tomorrow style */
+/* Import Tomorrow style */
 @import url('/stylesheets/tomorrow.css');
 
-/* remove top boards */
-span.sub:nth-child(3), span.sub:nth-child(4), span.sub:nth-child(5) {
+/* Remove top boards */
+/* span.sub:nth-child(3), span.sub:nth-child(4), span.sub:nth-child(5) {
     display:none;
-}
+} */
 
-/* make posts 960px wide  */
+/* Make posts max. 960px wide  */
 form[name=postcontrols] {
     margin-left:auto;
     margin-right:auto;
-    width:960px;
+    max-width:960px;
     border-left:1px solid #282a2e;
     border-right:1px solid #282a2e;
 }
 
 div.post.reply {
-    width:960px;
+    width:100%;
 }
 
-/* color (you) same as greenpost */
+/* Color (you) same as greenpost */
 .own_post {
     color:#ADBD68;
     opacity:1;
     font-weight:bold;
 }
 
-/* fix user css field size (for Firefox) */
+/* Fix user CSS field size (for Firefox) */
 div.options_tab:nth-child(5) > textarea:nth-child(2) {
     width:500px;
     height:282px;
 }
 
-/* bigger Youtube embed, 16:9 */
+/* Bigger Youtube embed, 16:9 */
 iframe {
     width:720px;
     height:405px;
-}
-
-/* fix header crap on /cow/ */
-.desktop-style body {
-    padding-top:0;
-}
-
-div.boardlist {
-    padding:0;
-}
-
-header h1 {
-    text-shadow:none;
-}
-
-img.banner, img.board_image {
-    margin: 30px auto 0px;
 }
