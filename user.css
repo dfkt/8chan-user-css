@@ -6,7 +6,7 @@ span.sub:nth-child(3), span.sub:nth-child(4), span.sub:nth-child(5) {
     display:none;
 }
 
-/* general layout */
+/* make posts 960px wide  */
 form[name=postcontrols] {
     margin-left:auto;
     margin-right:auto;
@@ -26,18 +26,16 @@ div.post.reply {
     font-weight:bold;
 }
 
-/* fix user css field size */
+/* fix user css field size (for Firefox) */
 div.options_tab:nth-child(5) > textarea:nth-child(2) {
     width:500px;
     height:282px;
 }
 
-
 /* bigger Youtube embed, 16:9 */
-
 iframe {
-    width:720px !important;
-    height:405px !important;
+    width:720px;
+    height:405px;
 }
 
 /* fix header crap on /cow/ */
