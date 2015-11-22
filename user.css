@@ -2,7 +2,7 @@
 @import url('/stylesheets/tomorrow.css');
 
 /* remove top boards */
-span.sub:nth-child(3),span.sub:nth-child(4),span.sub:nth-child(5) {
+span.sub:nth-child(3), span.sub:nth-child(4), span.sub:nth-child(5) {
     display:none;
 }
 
@@ -26,6 +26,20 @@ div.post.reply {
     font-weight:bold;
 }
 
+/* fix user css field size */
+div.options_tab:nth-child(5) > textarea:nth-child(2) {
+    width:500px;
+    height:282px;
+}
+
+
+/* bigger Youtube embed, 16:9 */
+
+iframe {
+    width:720px !important;
+    height:405px !important;
+}
+
 /* fix header crap on /cow/ */
 .desktop-style body {
     padding-top:0;
@@ -41,10 +55,4 @@ header h1 {
 
 img.banner, img.board_image {
     margin: 30px auto 0px;
-}
-
-/* fix user css field size */
-div.options_tab:nth-child(5) > textarea:nth-child(2) {
-    width:500px;
-    height:282px;
 }
