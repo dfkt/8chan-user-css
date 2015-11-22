@@ -26,14 +26,14 @@ div.post.reply {
     font-weight:bold;
 }
 
-/* Fix user CSS field size (for Firefox) */
-div.options_tab:nth-child(5) > textarea:nth-child(2) {
-    width:500px;
-    height:282px;
-}
-
 /* Bigger Youtube embed, 16:9 */
 iframe {
     width:720px;
     height:405px;
 }
+
+/* Fix user CSS field size (for Firefox) */
+/* div.options_tab:nth-child(5) > textarea:nth-child(2) {
+    width:500px;
+    height:282px;
+} */
